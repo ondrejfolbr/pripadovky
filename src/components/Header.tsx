@@ -5,9 +5,9 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 
 const navItems = [
-  { href: "/", label: "Default šablona" },
-  { href: "/case-study-01", label: "Case Study 01" },
-  { href: "/case-study-02", label: "Case Study 02" },
+  { href: "/", label: "Master" },
+  { href: "/case-study-01", label: "01" },
+  { href: "/case-study-02", label: "02" },
 ];
 
 export default function Header() {
