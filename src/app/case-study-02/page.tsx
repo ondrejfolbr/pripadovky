@@ -67,22 +67,10 @@ export default function CaseStudyPage() {
             biologická fakta.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16">
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Insight
-              </p>
-              <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                Mnoho žen během cyklu prostě nemá 100% výkon. Tlačit to na sílu není efektivní pro ně, ani pro firmu.
-              </p>
-            </div>
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Cíl
-              </p>
-              <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                Vytvořit prostředí, kde se o tom mluví otevřeně a kde se výkon posuzuje v kontextu zdraví.
-              </p>
-            </div>
+            <div />
+            <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
+              Mnoho žen během cyklu prostě nemá 100% výkon. Tlačit to na sílu není efektivní pro ně, ani pro firmu. Chtěli jsme vytvořit prostředí, kde se o tom mluví otevřeně a kde se výkon posuzuje v kontextu zdraví.
+            </p>
           </div>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mt-12 lg:mt-16">
             <ImagePlaceholder className="h-[300px] lg:h-[500px]" label="vyzva_01" />
@@ -102,24 +90,9 @@ export default function CaseStudyPage() {
           {/* Image left + text right */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-8 lg:mb-12">
             <ImagePlaceholder className="h-[300px] lg:h-[500px]" label="reseni_koncept" />
-            <div className="space-y-8 self-start">
-              <div>
-                <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                  Koncept
-                </p>
-                <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                  Zavedli jsme Menstruační den – den volna navíc pro ženy, bez nutnosti vysvětlování nebo papírování.
-                </p>
-              </div>
-              <div>
-                <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                  Vibe
-                </p>
-                <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                  Autentické sdílení naší firemní kultury na LinkedInu, které mělo jen „přiznat barvu“.
-                </p>
-              </div>
-            </div>
+            <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3] self-start">
+              Zavedli jsme Menstruační den – den volna navíc pro ženy, bez nutnosti vysvětlování nebo papírování. Téma jsme pak autenticky sdíleli na LinkedInu. Žádná kampaň, jen snaha přiznat barvu.
+            </p>
           </div>
           {/* Full-width image: PZ LinkedIn post */}
           <ImagePlaceholder className="w-full h-[400px] lg:h-[687px] mb-8 lg:mb-12" label="pz_linkedin_post" />
@@ -140,22 +113,10 @@ export default function CaseStudyPage() {
             kterou jsme nečekali.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-12 lg:mb-16">
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Realita
-              </p>
-              <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                Jeden příspěvek na sítě spustil masivní lavinu. Od absolutního nadšení a tleskání až po drsné hejty a obviňování z diskriminace mužů.
-              </p>
-            </div>
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Status
-              </p>
-              <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                Stali jsme se centrem debaty o moderním HR a tabuizovaných tématech.
-              </p>
-            </div>
+            <div />
+            <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
+              Jeden příspěvek na sítě spustil masivní lavinu. Od absolutního nadšení a tleskání až po drsné hejty a obviňování z diskriminace mužů. Stali jsme se centrem debaty o moderním HR a tabuizovaných tématech.
+            </p>
           </div>
           {/* Galerie screenshotů z diskuzí */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-6">
@@ -230,22 +191,12 @@ export default function CaseStudyPage() {
             nejsilnější branding.
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 mb-12 lg:mb-16">
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Pohled týmu
-              </p>
-              <p className="font-body font-medium text-[20px] lg:text-[28px] text-black tracking-[-1.12px] leading-[1.3] italic">
-                „Ukázali jsme, že v (ant) jsme nejdřív lidi a pak až specialisté. To, co začalo u nás v kuchyňce, otevřelo oči tisícům dalších firem.“
-              </p>
-            </div>
-            <div>
-              <p className="font-body font-bold text-[14px] lg:text-[16px] text-grey uppercase tracking-[1px] mb-3">
-                Výsledek
-              </p>
-              <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3]">
-                Desítky zpráv od žen, které nám děkovaly za otevření tématu, a jasná pozice (ant) jako progresivního zaměstnavatele.
-              </p>
-            </div>
+            <p className="font-body font-medium text-[20px] lg:text-[28px] text-black tracking-[-1.12px] leading-[1.3] italic">
+              „Ukázali jsme, že v (ant) jsme nejdřív lidi a pak až specialisté. To, co začalo u nás v kuchyňce, otevřelo oči tisícům dalších firem.“
+            </p>
+            <p className="font-body font-medium text-[18px] lg:text-[24px] text-black tracking-[-0.96px] leading-[1.3] self-end">
+              Přišly desítky zpráv od žen, které nám děkovaly za otevření tématu, a (ant) má jasnou pozici progresivního zaměstnavatele.
+            </p>
           </div>
           <ImagePlaceholder className="w-full h-[300px] lg:h-[466px]" label="zaver_final" />
         </section>
