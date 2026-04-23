@@ -8,6 +8,7 @@ const navItems = [
   { href: "/", label: "Master" },
   { href: "/case-study-01", label: "01" },
   { href: "/case-study-02", label: "02" },
+  { href: "/case-study-03", label: "03" },
 ];
 
 export default function Header() {
